@@ -6,15 +6,10 @@ Pytorch implementation of the displacement model from "Generation of Annotated B
 - Python 3
 - PyTorch>0.4
 - NVIDIA GPU + CUDA CuDNN
-- MATLAB (Optional, but you will need to write a new edge extraction function)
 
-## Getting started
-### Instalation
-- Clone this repo
-- Install the requirements
 
-### Datasets
-Here we use simple threshhold-based shape-describing deformed and non-deformed versions of images. See Folder "images" for examples. 
+## Datasets
+Here we use simple threshhold-based shape-describing deformed and non-deformed versions of images. See Folder "images" for examples. The dataset-class is defined to process such images.
 
 
 ## Citation
