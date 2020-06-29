@@ -17,8 +17,8 @@ from net_utils import calc_class_weights,warp_image, warp_image_diffeomorphic, d
 from img_utils import save3DImage
 # Training settings
 parser = argparse.ArgumentParser(description='pix2pix-PyTorch-implementation')
-parser.add_argument('--dataroot', type=str, default='/share/data_tiffy2/uzunova/3DTumorDeformations/Lists', help='root directory of the dataset')
-parser.add_argument('--resultsroot', type=str, default='/share/data_tiffy2/uzunova/3DTumorDeformations/Results', help='root directory of the dataset')
+parser.add_argument('--dataroot', type=str, default='./Lists', help='root directory of the dataset')
+parser.add_argument('--resultsroot', type=str, default='./Results', help='root directory of the dataset')
 parser.add_argument('--experiment_type', type=str, default='TumorDeformations', help='root directory of the dataset')
 parser.add_argument('--device', type=int, default=0)
 parser.add_argument('--nEpochs', type=int, default=500)
